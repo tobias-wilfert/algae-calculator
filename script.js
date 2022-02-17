@@ -63,7 +63,7 @@ $('#submit').click(function (event) {
 
     // Total calculation
     Tfields.forEach(function (item, index) {
-        let results = parseInt($('#O-CH'+item).val()) + parseInt($('#O-PS'+item).val());
+        let results = parseFloat($('#O-CH'+item).val()) + parseFloat($('#O-PS'+item).val());
         $('#TV'+item).val(results.toFixed(1));
     });
 });
