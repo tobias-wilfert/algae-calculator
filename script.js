@@ -46,7 +46,7 @@ $('#submit').click(function (event) {
     //$('#O-CH2-5').val('13');
 
     // Humic acid calculation
-    let results = 2*$('#volume').val()/334.3;
+    let results = 2*$('#volume').val()/655.3;
     $('#HA').val(results.toFixed(3));
 
     // CH calculation
